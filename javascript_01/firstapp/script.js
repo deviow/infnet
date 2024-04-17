@@ -1,9 +1,12 @@
-anoNascimento = 1978
+//input
+anoNascimento = 2002
+nome = "Danilo"
 
-idade = 2024 - anoNascimento
-
-nome = "Elberth"
-
+//processamento
+hoje = new Date()
+anoAtual = hoje.getFullYear()
+idade = anoAtual - anoNascimento
 mensagem = "Sou " + nome + " e tenho " + idade + " anos"
 
+//output
 alert(mensagem)
